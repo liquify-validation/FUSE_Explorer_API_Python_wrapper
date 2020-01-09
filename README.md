@@ -16,6 +16,12 @@ Wrappers are provided for all of the current API modules:
 
 A full list of the API functions and there uses can be found on the fuse explore docs here: https://explorer.fuse.io/api_docs
 
+# Install
+This module is on pypi to install simpily run the command:
+```
+pip install Fuse-Explorer-API
+```
+
 # Note
 There is currently some issues with a few of ther APIs, the Fuse team are aware of this and are currently looking into it.
 
