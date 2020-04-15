@@ -111,7 +111,7 @@ class Client(object):
                 data = req.json()
                 status = data.get('status')
                 self.clear_url()
-                if status == '1':
+                if status == '1' or 'jsonrpc' in data:
                     return data
                 else:
                     raise EmptyResponse(data.get('message', 'no message'))
